@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: CocoSharp,Arial;
+}
+*, :after, :before {
+     -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+     box-sizing: border-box; 
+}
+
+a{
+	text-decoration: none;
+}
+
+.top {
+	background-color: #FAFAFA;	
+	display: flex;
+    justify-content: center;	
+}
+.site-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;	
+	width: 62%;
+	height: 55px;
+}
+.top-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;	
+}
+.top-services a{
+	display: inline-block;
+    line-height: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #323232;
+    text-decoration: none;
+    margin: 0 10px;	
+}
+.logo{
+	background-image: url(https://unibank.az/assets/images/orange.png);
+    width: 26px;
+    height: 28px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.top-types-cont{
+	display: inline-flex;
+    color: #FF7A00;
+    box-shadow: 0 2px 14px -8px rgba(0,0,0,.3);
+}
+.top-types{
+	line-height: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #323232;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;    
+}
+.top-types-active{
+	opacity: 1;
+    font-weight: 600;
+    color: #FF7A00!important;
+    border-radius: 5px;
+    border: 1px solid #FF7A00;	
+}
+.top-mode {
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-shadow: 0 2px 14px -10px rgba(0,0,0,.3);
+    background-color: #323232;
+    color: white;
+}
+.top-right{
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;	
+}
+.top-lang{
+	line-height: 12px;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: 0 2px 14px -10px rgba(0,0,0,.3);
+    background: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: #323232;
+    padding: 0 8px;
+    margin-right: 10px;
+    height: 35px;
+    border-radius: 5px;
+}
+.top-search{
+    box-shadow: 0 2px 14px -8px rgba(0,0,0,.3);
+    background: #fff;
+    width: 35px;
+	height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;    
+}
+.navbar{
+	width: 62%;
+    margin: auto;	
+}
+.navbar-block{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;	
+}
+.navbar-items{
+	padding: 30px 0;
+}
+.navbar-items a{
+	padding: 0 15px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar-items a:nth-child(1){
+	padding-left: 0px;
+}
+.call-btn{
+	display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 12px 15px;
+    color: #000;
+}
+.containter{
+	width: 62%;
+	margin: auto;
+}
+.cont-header{
+	margin-bottom: 30px;
+    color: #FF6400;
+    font-weight: 800;
+    font-size: 32px;
+}
+.bloks-cont{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;	
+}
+.bloks{
+	width: 49%;
+    padding: 45px 65px;
+    border-radius: 10px;
+    background: #fafafa;
+    margin-bottom: 30px;	
+}
+.bloks h3{
+	line-height: 24px;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.bloks p{
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;	
+}
+.more-btn>a{
+	background: #FF6400;
+    color: #fff!important;
+    padding: 16px 25px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 1px solid transparent;
+    display: inline-flex;	
+}
+.more-btn span{
+	margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
